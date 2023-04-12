@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Web322 Gallery Assignment</title>
+    <link rel="stylesheet" href="/public/css/gallery.css" />
+</head>
+
+<body>
+
+    <form method="POST" action="/content">
+
+        <h1>Biker's Collection</h1>
+        <div class="user">
+            <b>Hi User</b>
+            <br>
+            <a href="/">LOG OUT</a>
+
+        </div>
+
+        <div class="selection">
+            {{#each data.collection}}
+                <input type="radio" name="rdoImage" id="rdoImage{{this}}" value="{{this}}">
+                <label for="rdoImage{{this}}">{{this}}</label>
+                <br>
+            {{/each}}
+            <br><br>
+            <button type="submit" value="submit">Submit</button>
+        </div>
+
+    </form>
+    
+        <div class="content">
+            <img src="/public/images/{{data.choice}}.png" alt="/public/images/Racetrack.png" width: 100%  />
+            <br>
+            <br>
+        </div>
+        <div class="imageName">  
+            <b>{{data.choice}}</b>
+        </div>
+
+    </body>
+</html>

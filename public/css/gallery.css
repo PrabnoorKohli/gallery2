@@ -1,0 +1,139 @@
+h1{
+    text-align: center;
+	color: #ffffff;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size:xx-large;
+	left: 0;
+	right: 0;
+}
+
+h2{
+    text-align: center;
+	color: #ffffff;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: x-large;
+	left: 0;
+	right: 0;
+}
+
+html {
+	background: url('/public/images/Racetrack.jpg');
+	height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.login{
+	text-align: center;
+	width: auto;
+}
+
+.footer{
+	left: 0px;
+	right: 0px;
+	top: 500px;
+	position: absolute;
+}
+.selection
+{
+	border: 5px double #e24141;
+	color: #ffffff;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	height: 300px;
+	top: 70px;	
+	left: 70px;
+	margin: 0;
+	position: absolute;
+	text-align: left;
+}
+
+.content 
+{ 
+	
+	
+	top: 250px; 
+	height: 350px;            
+	width: 600px;  
+	left: 200px;
+	right: 0px;
+	height: auto;
+	margin: 0 auto;
+	position: absolute;
+	text-align: center;	
+}
+
+.imageName 
+{
+	border: 6px double rgb(255, 0, 0);
+	color: #ffffff;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	width: 300px;	
+	left: 200px;
+	right: 0; 
+	margin: 3em auto;
+	position: absolute;
+	text-size-adjust: 20px;
+	bottom: 150px;	
+	text-align: center;
+}
+
+.user
+{
+	border: 6px double white;
+	color: #ffffff;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin: auto;
+	width: 150px;
+	height: auto;
+	text-align: center;
+	right: 70px;
+	position: absolute;
+	
+
+}
+
+input[type="radio"]
+{
+	font-size: 1.5em;
+	margin: 5px;
+}
+label:hover
+{
+	color: red;
+	text-decoration: underline;
+}
+
+button{
+    background-color: red;
+	color: #ffffff;
+	font-size: large;
+	border: 3px double rgb(255, 255, 255);
+	width: 150px;
+	bottom: 150px;
+}
+button:hover 
+{
+	background-color: rgb(255, 255, 255);
+	color: #ff0000;
+}
+
+a{
+	color: #ffffff;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin: auto;
+	width: 150px;
+}
+a:hover
+{
+	background-color: #ff0000;
+	color: black;
+	
+}
